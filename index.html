@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/resp.css" />   
     <title>Document</title>
   </head>
   <body>
-    <nav class="navbar">
-      <ul class="nav-left">
+    <nav class="navbar nav-height-res">
+      <ul class="nav-left nav-vis-res">
         <div class="logo"><img src="image/logo.jpeg" alt="logo image" /></div>
         <li><a href="#home1" onclick="gapSize()">Home</a></li>
         <li><a href="#about1" onclick="gapSize()">About</a></li>
@@ -17,6 +18,12 @@
         <li><a href="#achivements1" onclick="gapSize()">Achivements</a></li>
         <li><a href="#contact1" onclick="gapSize()">Contact</a></li>
       </ul>
+
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
       <!-- <div class="nav-right">
         <input type="search" name="search" id="search">
         <button class="btn" id="searchBtn">search</button>
@@ -28,7 +35,7 @@
       <div class="homeImg">
         <div class="img"><img src="image/home2.jpeg" alt="" /></div>
         <div class="img"><img src="image/home3.jpeg" alt="" /></div>
-        <div class="img"><img src="image/home.jpeg" alt="" /></div>
+        <div class="img" id="homeImg3"><img src="image/home.jpeg" alt="" /></div>
       </div>
     </section>
     <div class="gap" id="about1"></div>
