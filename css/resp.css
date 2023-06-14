@@ -1,0 +1,244 @@
+@media only screen and (max-width: 1300px) {
+    .home .img img {
+        height: 94vh;
+    }
+
+    .home .img {
+
+        width: 48%;
+    }
+    .navbar .nav-left .logo img {
+
+        height: 60px;
+    
+    }
+    .achivements{
+        max-width: 100vw;
+        
+        /* margin: auto; */
+    }
+    .achImg .img{
+        width: 40vw;
+    }
+    .achImg .img img{
+        width: 40vw;
+    }
+    
+    .contact,.footer{
+        max-width: 100vw;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 100vw;
+        transition: all 0.7s ease-out;
+        height: 55vh;
+    }
+    .navbar .nav-left{
+        flex-direction: column;
+        
+        padding: 10px 5px;
+    }
+    .navbar .nav-left .logo{
+        margin: auto;
+    }
+    .navbar .nav-left li{
+        margin: 10px;
+        
+    }
+    .burger{
+        display: block;
+    }
+    .nav-height-res{
+        height: 9vh;
+    }
+    .nav-vis-res{
+        opacity: 0;
+    }
+    .burger,.line{
+        width: 5vw;
+       }
+}
+
+@media only screen and (max-width: 1300px) {
+    .services{
+        max-width: 100vw; 
+        flex-direction: row;
+       
+    }
+    .services .service {
+        width: 40vw;
+        
+    }
+    .services .service img{
+        width: 25vw;
+    }
+    #homeImg3{
+        width: 90vw;
+    }
+    .about{
+        max-width: 100vw;
+    }
+    .company,.person{
+        width: 97vw;
+    }
+    .services .service {
+        width: 40vw;
+        height: 55vh;
+    }
+    .services .service img,  .services .service p{
+       width: 20vw;
+        height: 20vh;
+    }
+    .services .service .img1{
+        width: 20vw;
+        height: 20vh;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+   
+    #homeImg3{
+        width: 80vw;
+    }
+    #homeImg3 img{
+        width: 91vw;
+    }
+    .home .img {
+        padding: 30px 0px;
+   
+    }
+    .home .img img{
+        width: 45vw;
+        height: 65vh;
+    
+     }
+    .company,.person{
+        margin-top: 35px;
+        width: 91vw;
+        padding: 30px 20px;
+    }
+    .achivements .img {
+       padding: 30px 20px;
+        
+        /* margin: auto; */
+    }
+    .services .service {
+        width: 40vw;
+        height: 55vh;
+    }
+    .services .service img,  .services .service p{
+       width: 20vw;
+        height: 20vh;
+    }
+    .services .service .img1{
+        width: 20vw;
+        height: 20vh;
+    }
+    .burger,.line{
+        width: 5vw;
+       }
+}
+
+@media only screen and (max-width: 630px) {
+    
+    .home .img {
+        /* padding: 30px 0px; */
+        width: 40vw;
+        /* display: inline-block; */
+   
+    }
+    .home .img img{
+        width:40vw;
+        height: 45vh;
+    
+     }
+
+    .about{
+        /* width: 100vw;; */
+    }
+    .about .company{
+        flex-direction: column-reverse;
+        max-width: 80vw;
+    }
+    .about .company img{
+        /* flex-direction: column-reverse; */
+        max-width: 70vw;
+    }
+    .about .person{
+        flex-direction: column-reverse;
+        max-width: 80vw;
+    }
+    .about div{
+        margin-top: 30px;
+    }
+
+    .services .service {
+        width: 80vw;
+        height: 65vh;
+    }
+    .services .service img,  .services .service p{
+       width: 50vw;
+        height: 30vh;
+    }
+    .services .service .img1{
+        width: 50vw;
+        height: 30vh;
+    }
+
+    /* .achivements{
+        max-width: 100vw;
+        
+     
+    } */
+    .achImg .img{
+        width: 80vw;
+    }
+    .achImg .img img{
+        width: 80vw;
+        /* height: 50vh; */
+    }
+    .burger,.line{
+        width: 8vw;
+       }
+}
+
+@media only screen and (max-width: 450px) {
+    .navbar .nav-left .logo img {
+
+        height: 55px;
+    
+    }
+    .home .img {
+       
+        width: 90vw;
+        
+   
+    }
+    .home .img img{
+        width:90vw;
+        height: 65vh;
+    
+     }
+
+     #homeImg3{
+        width: 90vw;
+    }
+    #homeImg3 img{
+        /* width:90vw; */
+        height: 60vh;
+    }
+    .services .service img{
+        margin-top: 40px;
+    }
+    .burger,.line{
+     width: 8vw;
+    }
+
+.achivements .img img{
+    width: 80vw;
+
+}
+}
